@@ -1,3 +1,17 @@
+"""
+Author: Sreekanth Balu
+Email: balusreekanth@gmail.com
+Date: 2024-12-21
+Description:
+
+This script implements a client for monitoring server log notifications. It includes:
+- A secure connection to the server using SSL.
+- Real-time notifications displayed via the system tray and `win11toast`.
+- Text-to-speech (TTS) alerts for specified keywords using `pyttsx3`.
+- A system tray icon that updates based on the server connection status.
+
+The client continuously listens to the server and provides both visual and audio alerts when specified keywords are detected in the server logs. The script also handles reconnection in case of errors or timeouts.
+"""
 import os
 import socket
 import ssl
