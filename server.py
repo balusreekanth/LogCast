@@ -1,3 +1,18 @@
+"""
+Author: Sreekanth Balu
+Email: balusreekanth@gmail.com
+Date: 2024-12-21
+Description: 
+
+This script sets up a secure server that monitors a log file for specific keywords and broadcasts messages to connected clients when the keyword is found. 
+It includes:
+- Configurable server settings such as IP, port, log file paths, and SSL certificates.
+- Real-time log file monitoring using file inodes to detect changes and updates.
+- A keep-alive mechanism to maintain active client connections.
+- Integration with `win11toast` and `pyttsx` for client-side notifications (if used with a compatible client).
+
+The server is designed to handle multiple clients simultaneously, using SSL for secure communication and threading for efficiency.
+"""
 import socket
 import threading
 import time
