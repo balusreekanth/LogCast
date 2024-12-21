@@ -1,0 +1,4 @@
+pyttsx3
+win11toast
+pystray
+Pillow
