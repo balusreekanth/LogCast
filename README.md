@@ -60,7 +60,8 @@ pip install -r requirements.txt
 ### Future Improvements
 	•	Add support for multiple log files on the server.
 	•	Enhance client-side notification customization.
-	•	Introduce a web-based interface for monitoring logs.
+	•	Introduce a web-based interface.
+        •	Option to select either the watchdog or polling method
 
 # Need help ?
 
